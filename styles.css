@@ -37,7 +37,7 @@ nav.solid{background:rgba(0,31,64,0.97);-webkit-backdrop-filter:blur(24px);backd
 #hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:0 6%;position:relative;overflow:hidden}
 .hero-bg-img{position:absolute;inset:0;z-index:0;background:url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1800&q=80') center/cover no-repeat;filter:brightness(0.18) saturate(0.5)}
 .hero-bg-overlay{position:absolute;inset:0;z-index:1;background:linear-gradient(135deg,rgba(0,21,48,0.9) 0%,rgba(0,31,64,0.7) 50%,rgba(0,42,85,0.88) 100%)}
-.hero-grid-overlay{position:absolute;inset:0;z-index:2;background-image:linear-gradient(rgba(58,174,230,0.07) 1px,transparent 1px),linear-gradient(90deg,rgba(58,174,230,0.07) 1px,transparent 1px);background-size:72px 72px;-webkit-mask-image:radial-gradient(ellipse 90% 70% at 50% 40%,black 30%,transparent 100%);mask-image:radial-gradient(ellipse 90% 70% at 50% 40%,black 30%,transparent 100%)}
+.hero-grid-overlay{display:none}
 .glow-orb{position:absolute;border-radius:50%;pointer-events:none}
 .go-1{z-index:2;width:700px;height:700px;top:-200px;right:-150px;background:radial-gradient(circle,rgba(58,174,230,0.18) 0%,transparent 65%);animation:pulse1 9s ease-in-out infinite}
 @keyframes pulse1{0%,100%{transform:scale(1) translate(0,0)}50%{transform:scale(1.08) translate(-20px,30px)}}
